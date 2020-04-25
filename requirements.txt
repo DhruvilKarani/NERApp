@@ -1,0 +1,6 @@
+torch
+nltk
+textblob
+numpy
+pandas
+flask
