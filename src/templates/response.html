@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+  
+{% for key, value in data.items() %}
+    <li>{{"{0} -----> {1}".format(key,value)}}</li>
+{% endfor %}
+<br><br>
+<form  action="/" method="post" id="home"> 
+    Try one more time!<br> 
+    <input type="submit" value="Click Here"> 
+</form>  
+  
+</body> 
+</html>
